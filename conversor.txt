@@ -1,0 +1,31 @@
+int main(){
+
+    char caracter;
+    
+    cout << "Ingrese un caracter por favor: ";
+    cin >> caracter;
+
+    int valor = static_cast<int>(caracter);
+    cout << "El numero correspondiente es: " << valor << endl;
+
+}
+Asi me salio no se si esté bien profe
+Rafael Alejandro Ramirez Quiroz15:35
+int main(){
+    char x;
+    cout<<"Ingrese un caracter: ";cin>>x;
+    cout<<"El valor en la tabla ASCCi del caracter"<<x<<" es "<<(int)x;
+    return 0;
+}
+Giancarlo Joaquin Roman Gatica15:36
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char n;
+    cout << "Enter a character: ";
+    cin >> n;
+    cout << static_cast<int>(n);
+    
+}
